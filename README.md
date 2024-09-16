@@ -1,4 +1,4 @@
 # TP_AySO
-#Alumno: Viviana Choque
-#División: 311
-#Turno: Noche
+Alumno: Viviana Choque
+División: 311
+Turno: Noche
