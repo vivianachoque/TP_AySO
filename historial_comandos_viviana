@@ -1,0 +1,81 @@
+ssh-keygen
+ls
+cd -
+cd ~
+ls
+$HOME
+cd HOME
+cd .ssh/
+*.pub
+cat $HOME/.ssh/*.pub
+~
+ls
+cd ~
+ls
+cd Desktop/
+mkdir repogit
+cd repogit/
+ls
+git clone git@github.com:vivianachoque/TP_AySO.git
+git@github.com:vivianachoque/TP_AySO.git
+sudo dnf install git.
+git@github.com:vivianachoque/TP_AySO.git
+git clone git@github.com:vivianachoque/TP_AySO.git
+yum install git
+dnf install git
+sudo yum install git 
+git clone git@github.com:vivianachoque/TP_AySO.git
+ls
+cd TP_AySO/
+ls -l
+cat /etc/os-release
+man grep
+grep -i
+ls
+cd ~
+ls
+grep -i HOME_URL/ETC/OS-RELEASE
+cd Desktop/
+ls
+cd repogit/
+ls
+cd TP_AySO/
+grep -i HOME_URL/ETC/OS-RELEASE
+cat /etc/os-release
+grep -i HOME_URL/ETC/OS-RELEASE
+grep -i "HOME_URL" /etc/os-release
+whoami
+sudo yum install git 
+echo "Usuario=$(whoami)"
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+cat datos_usuario
+cat datos_usuario.txt
+git add .
+git config --global user.email "vivianaachoque@gmail.com"
+git config --global user.name "vivianachoque"
+git add .
+git commit -m "Realizo el primer ejercicio del TP de ARQ y SO"
+git status
+sudo mount /dev/cdrom /mnt
+sudo /mnt/VBoxLniuxAdditions.run
+sudo /mnt/VBoxLinuxAdditions.run
+grep -m 1 '^model name' /proc/cpuinfo >> datos_usuario.txt
+cat datos_usuario.txt
+ls
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+awk -F: '$7 != "/sbin/nologin" && $7 != "/bin/false" {print $1 ":" $7}' /etc/passwd | head -n 10 | sort -t: -k2 > lista_ordenada
+git add .
+git commit -m "add: listado de usuarios ordenada"
+echo "tcpdump" > comando_dump_net
+echo "tcpdump -i any -n -s 0 -w dumpfile.pcap" >> comando_dump_net
+ls
+git add .
+git commit -m "add: comando para capturar y analizar el tráfico de la red"
+git push
+pwd
+xdg-open .
+git add .
+git commit -m "add: agrego mis datos en el archivo de readme.md"
+history -a
