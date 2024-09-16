@@ -1,1 +1,2 @@
 Usuario=liveuser
+model name	: AMD Ryzen 5 4600H with Radeon Graphics
