@@ -1,0 +1,10 @@
+root:/bin/bash
+sync:/bin/sync
+halt:/sbin/halt
+shutdown:/sbin/shutdown
+adm:/usr/sbin/nologin
+bin:/usr/sbin/nologin
+daemon:/usr/sbin/nologin
+lp:/usr/sbin/nologin
+mail:/usr/sbin/nologin
+operator:/usr/sbin/nologin
